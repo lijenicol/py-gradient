@@ -1,6 +1,6 @@
 {
-    "image-width" : 3840,
-    "image-height" : 2160,
+    "image-width" : 1000,
+    "image-height" : 1000,
     "falloff" : 1.15,
     "colors" : [
         [1,0,0],

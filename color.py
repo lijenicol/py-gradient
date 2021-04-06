@@ -1,16 +1,12 @@
 import sys
 import json
 
-# Position refers to pixel value
+# Position is between 0 and 1 for x and y
 # Color is between 0 and 1
 class PointColor(object):
     def __init__(self, pos, color):
         self.pos = pos
         self.color = color
-
-# Linearlly interpolate between two points
-def lerp(start, end, t):
-    return start + (end-start)*float(t)
 
 # Clamp between [0,1]
 def clamp(t):
