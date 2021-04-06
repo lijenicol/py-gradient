@@ -32,5 +32,5 @@ Here `image-width` and `image-height` specify the width and height of the output
 
 By default, images are output to a file named `"out.ppm"`, however you can change this by supplying another argument in the command line (the .ppm suffix is automatically added so you do not need to add it in the argument).
 
-### Example py-config execution:
+### Example py-gradient execution:
 `python color.py config.json gradient`
